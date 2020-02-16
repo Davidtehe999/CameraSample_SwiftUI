@@ -15,6 +15,9 @@
 		1690C9F723F9868500672161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1690C9F523F9868500672161 /* LaunchScreen.storyboard */; };
 		1690CA0223F9868600672161 /* CameraSample_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1690CA0123F9868600672161 /* CameraSample_SwiftUITests.swift */; };
 		1690CA0D23F9868600672161 /* CameraSample_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1690CA0C23F9868600672161 /* CameraSample_SwiftUIUITests.swift */; };
+		1690CA1B23F989B900672161 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1690CA1A23F989B900672161 /* ImagePicker.swift */; };
+		1690CA1D23F98B1500672161 /* Coorinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1690CA1C23F98B1500672161 /* Coorinator.swift */; };
+		1690CA1F23F98E6A00672161 /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1690CA1E23F98E6A00672161 /* PhotoCaptureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		1690CA0823F9868600672161 /* CameraSample_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraSample_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1690CA0C23F9868600672161 /* CameraSample_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSample_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		1690CA0E23F9868600672161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1690CA1A23F989B900672161 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		1690CA1C23F98B1500672161 /* Coorinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coorinator.swift; sourceTree = "<group>"; };
+		1690CA1E23F98E6A00672161 /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				1690C9EA23F9868400672161 /* AppDelegate.swift */,
 				1690C9EC23F9868400672161 /* SceneDelegate.swift */,
 				1690C9EE23F9868400672161 /* ContentView.swift */,
+				1690CA1A23F989B900672161 /* ImagePicker.swift */,
+				1690CA1C23F98B1500672161 /* Coorinator.swift */,
+				1690CA1E23F98E6A00672161 /* PhotoCaptureView.swift */,
 				1690C9F023F9868500672161 /* Assets.xcassets */,
 				1690C9F523F9868500672161 /* LaunchScreen.storyboard */,
 				1690C9F823F9868500672161 /* Info.plist */,
@@ -268,7 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1690C9EB23F9868400672161 /* AppDelegate.swift in Sources */,
+				1690CA1B23F989B900672161 /* ImagePicker.swift in Sources */,
 				1690C9ED23F9868400672161 /* SceneDelegate.swift in Sources */,
+				1690CA1D23F98B1500672161 /* Coorinator.swift in Sources */,
+				1690CA1F23F98E6A00672161 /* PhotoCaptureView.swift in Sources */,
 				1690C9EF23F9868400672161 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
