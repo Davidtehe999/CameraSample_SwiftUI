@@ -24,10 +24,11 @@ struct ContentView: View {
                 .cornerRadius(10)
         }.sheet(isPresented: self.$showImagePicker) {
             PhotoCaptureView(showImagePicker: self.$showImagePicker, image: self.$image)
-            
         }
+        
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
