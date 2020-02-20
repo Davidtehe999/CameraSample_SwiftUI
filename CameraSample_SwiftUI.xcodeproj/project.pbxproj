@@ -19,6 +19,8 @@
 		1690CA1D23F98B1500672161 /* Coorinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1690CA1C23F98B1500672161 /* Coorinator.swift */; };
 		1690CA1F23F98E6A00672161 /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1690CA1E23F98E6A00672161 /* PhotoCaptureView.swift */; };
 		169E17D023FF144E00CC647B /* AVFoundationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E17CF23FF144E00CC647B /* AVFoundationVM.swift */; };
+		169E17D223FF1C2600CC647B /* CALayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E17D123FF1C2600CC647B /* CALayerView.swift */; };
+		169E17D423FF1D3B00CC647B /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E17D323FF1D3B00CC647B /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		1690CA1C23F98B1500672161 /* Coorinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coorinator.swift; sourceTree = "<group>"; };
 		1690CA1E23F98E6A00672161 /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
 		169E17CF23FF144E00CC647B /* AVFoundationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundationVM.swift; sourceTree = "<group>"; };
+		169E17D123FF1C2600CC647B /* CALayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerView.swift; sourceTree = "<group>"; };
+		169E17D323FF1D3B00CC647B /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 				1690CA1C23F98B1500672161 /* Coorinator.swift */,
 				1690CA1E23F98E6A00672161 /* PhotoCaptureView.swift */,
 				169E17CF23FF144E00CC647B /* AVFoundationVM.swift */,
+				169E17D123FF1C2600CC647B /* CALayerView.swift */,
+				169E17D323FF1D3B00CC647B /* CameraView.swift */,
 				1690C9F023F9868500672161 /* Assets.xcassets */,
 				1690C9F523F9868500672161 /* LaunchScreen.storyboard */,
 				1690C9F823F9868500672161 /* Info.plist */,
@@ -279,8 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				169E17D223FF1C2600CC647B /* CALayerView.swift in Sources */,
 				169E17D023FF144E00CC647B /* AVFoundationVM.swift in Sources */,
 				1690C9EB23F9868400672161 /* AppDelegate.swift in Sources */,
+				169E17D423FF1D3B00CC647B /* CameraView.swift in Sources */,
 				1690CA1B23F989B900672161 /* ImagePicker.swift in Sources */,
 				1690C9ED23F9868400672161 /* SceneDelegate.swift in Sources */,
 				1690CA1D23F98B1500672161 /* Coorinator.swift in Sources */,
